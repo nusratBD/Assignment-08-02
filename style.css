@@ -12,6 +12,9 @@ body{
     font-weight: bolder;
     color: white;
 }
+main{
+    background-color: #fcfafb;
+}
 /* Nav */
 .nav{
     display: flex;
@@ -108,5 +111,8 @@ li{
     .nav{
         flex-direction: column;
         margin: 0;
+    }
+    .play-like-goat{
+        margin-top: 30px;
     }
 }

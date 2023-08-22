@@ -1,4 +1,7 @@
 /* Common */
+body{
+    margin: 0 auto;
+}
 .margin{
     margin: 20px 100px 20px 100px;
 }
@@ -92,6 +95,10 @@ li{
     }
     li{
         margin: 20px 0px 20px 0px;
+    }
+    .play-like-goat{
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
 @media only screen and (max-width: 991px) {

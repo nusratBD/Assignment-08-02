@@ -1,9 +1,19 @@
+/* Common */
+.margin{
+    margin: 20px 100px 20px 100px;
+}
+.common-button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    font-weight: bolder;
+    color: white;
+}
 /* Nav */
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 100px 20px 100px;
 }
 .title{
     color: hotpink;
@@ -41,11 +51,41 @@ li{
     border-radius: 5px;
     font-weight: bold;
 }
+/* Play Like The G.O.A.T */
+.play-like-goat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.goat-title{
+    font-size: 60px;
+    height: 60px;
+    margin: 0;
+    font-weight: bolder;
+    background-image: linear-gradient(180deg, #F948B2 50%, #8758F1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.goat-list{
+    margin-top: 25px;
+}
+.goat-list li{
+    margin-top: 10px;
+}
+.goat-btn{
+    margin-top: 25px;
+}
+.goat-img img{
+   width: 75%;
+   float: right;
+}
 /* Responsive On Screen */
 @media only screen and (max-width: 576px) {
+    .margin{
+        margin: 0;
+    }
     .nav{
         flex-direction: column;
-        margin: 0;
     }
     .right-nav{
         flex-direction: column;
@@ -55,6 +95,9 @@ li{
     }
 }
 @media only screen and (max-width: 991px) {
+    .margin{
+        margin: 0;
+    }
     .nav{
         flex-direction: column;
         margin: 0;

@@ -11,13 +11,14 @@
 .site-title{
     font-weight: bolder;
     margin-left: 20px;
+    font-size: 2em;
 }
 .left-nav{
     display: flex;
     align-items: center;
 }
 .left-nav img{
-    height: 50px;
+    height: 30px;
     width: 50px;
 }
 .right-nav{
@@ -39,4 +40,17 @@ li{
     padding: 15px;
     border-radius: 5px;
     font-weight: bold;
+}
+/* Responsive On Screen */
+@media only screen and (max-width: 576px) {
+    .nav{
+        flex-direction: column;
+        margin: 0;
+    }
+    .right-nav{
+        flex-direction: column;
+    }
+    li{
+        margin: 20px 0px 20px 0px;
+    }
 }

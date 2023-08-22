@@ -1,0 +1,42 @@
+/* Nav */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px 20px 100px;
+}
+.title{
+    color: hotpink;
+}
+.site-title{
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+.left-nav img{
+    height: 50px;
+    width: 50px;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.youtube-icon{
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-btn{
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}

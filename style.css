@@ -81,9 +81,6 @@ li{
    float: right;
 }
 /* We are gamer */
-.we-are-gamer{
-margin-top: 50px;
-}
 .gamer-text{
     width: 40%;
 }
@@ -95,7 +92,6 @@ margin-top: 50px;
 }
 .gamer-text{
     text-align: end;
-    justify-content: end;
 }
 .gamer-description, .goat-list li{
     font-size: 18px;
@@ -128,6 +124,16 @@ margin-top: 50px;
         flex-direction: column-reverse;
         align-items: center;
     }
+    .we-are-gamer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gamer-text{
+        text-align: center;
+    }
+    .gamer-text, .gamer-img{
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 991px) {
     .margin{
@@ -136,8 +142,5 @@ margin-top: 50px;
     .nav{
         flex-direction: column;
         margin: 0;
-    }
-    .play-like-goat{
-        margin-top: 30px;
     }
 }

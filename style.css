@@ -15,12 +15,12 @@ body{
 main{
     background-color: #fcfafb;
 }
-/* Nav */
-.nav{
+.play-like-goat, .we-are-gamer, .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+/* Nav */
 .title{
     color: hotpink;
 }
@@ -58,14 +58,9 @@ li{
     font-weight: bold;
 }
 /* Play Like The G.O.A.T */
-.play-like-goat{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.goat-title{
+.goat-title, .gamer-title{
     font-size: 60px;
-    height: 60px;
+    height: 100%;
     margin: 0;
     font-weight: bolder;
     background-image: linear-gradient(180deg, #F948B2 50%, #8758F1);
@@ -84,6 +79,36 @@ li{
 .goat-img img{
    width: 75%;
    float: right;
+}
+/* We are gamer */
+.we-are-gamer{
+margin-top: 50px;
+}
+.gamer-text{
+    width: 40%;
+}
+ .gamer-img{
+    width: 50%;
+}
+.gamer-img img{
+    width: 100%;
+}
+.gamer-text{
+    text-align: end;
+    justify-content: end;
+}
+.gamer-description, .goat-list li{
+    font-size: 18px;
+    color: #534C64;
+}
+.gamer-purpose{
+    font-size: 24px;
+    color: #534C64;
+}
+.gamer-quote{
+    font-size: 32px;
+    color: #534C64;
+    font-weight: bold;
 }
 /* Responsive On Screen */
 @media only screen and (max-width: 576px) {

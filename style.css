@@ -106,6 +106,18 @@ li{
     color: #534C64;
     font-weight: bold;
 }
+/* Online Games Funny Video */
+.online-games-funny-video{
+    text-align: center;
+    margin-top: 100px;
+}
+.online-games-card{
+    display: flex;
+    gap: 20px;
+}
+.online-games-card img{
+    width: 100%;
+}
 /* Responsive On Screen */
 @media only screen and (max-width: 576px) {
     .margin{
@@ -134,6 +146,9 @@ li{
     .gamer-text, .gamer-img{
         width: 100%;
     }
+    .online-games-card{
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 991px) {
     .margin{
@@ -145,5 +160,9 @@ li{
     }
     .gamer-text, .gamer-img{
         width: 50%;
+    }
+    .online-games-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }

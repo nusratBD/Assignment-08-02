@@ -168,10 +168,7 @@ li{
     .margin{
         margin: 0;
     }
-    .nav{
-        flex-direction: column;
-    }
-    .right-nav{
+    .nav, .right-nav, .play-instantly{
         flex-direction: column;
     }
     li{
@@ -188,11 +185,14 @@ li{
     .gamer-text{
         text-align: center;
     }
-    .gamer-text, .gamer-img{
+    .gamer-text, .gamer-img, .play-instantly-info, .play-instantly-img{
         width: 100%;
     }
     .online-games-card{
         flex-direction: column;
+    }
+    .play-instantly{
+        text-align: center;
     }
 }
 @media only screen and (max-width: 991px) {

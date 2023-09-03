@@ -123,13 +123,45 @@ li{
     position: relative;
     border: 3px solid red;
     border-radius: 15px;
-    filter: brightness(80%);
+    filter: brightness(50%);
 }
 .watch-now{
     position: absolute;
     top: 50%;
     left: 30%;
     color: white;
+}
+/* Play Instantly */
+.play-instantly{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: end;
+    margin-top: 100px;
+}
+.play-instantly-info{
+    width: 25%;
+}
+.play-instantly-title{
+    font-weight: bolder;
+}
+.play-instantly-description{
+    color: #534C64;
+}
+.play-instantly-img{
+    position: relative;
+}
+.play-instantly-img img{
+    width: 100%;
+}
+.relative-img{
+    position: absolute;
+    left: -100px;
+    bottom: -100px;
+}
+.relative-img img{
+    height: 300px;
+    width: 300px;
 }
 /* Responsive On Screen */
 @media only screen and (max-width: 576px) {

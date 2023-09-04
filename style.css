@@ -81,6 +81,9 @@ li{
    float: right;
 }
 /* We are gamer */
+.we-are-gamer{
+    margin: 100px;
+}
 .gamer-text{
     width: 40%;
 }

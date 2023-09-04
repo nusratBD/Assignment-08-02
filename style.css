@@ -169,32 +169,25 @@ li{
 /* Aside: Button */
 .aside{
     margin-top: 250px;
-}
-.btn{
-    margin-bottom: 20px;
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
-.btn img{
+.aside img{
     height: 50px;
     width: 50px;
 }
-.btn-row-up{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
-}
-.btn-row-down{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+.btn-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 .btn-row1{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.btn h4{
+.aside h4{
     margin-left: 10px;
     font-weight: bolder;
 }
@@ -225,6 +218,9 @@ li{
     .online-games-card{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .aside{
+        margin-top: 200px;
     }
 }
 /* Mobile */
@@ -257,5 +253,8 @@ li{
     }
     .play-instantly{
         text-align: center;
+    }
+    .aside{
+        margin-top: 200px;
     }
 }

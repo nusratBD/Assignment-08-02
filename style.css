@@ -70,6 +70,10 @@ li {
     padding: 15px;
     border-radius: 5px;
     font-weight: bold;
+    background-color: lightgray;
+    height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /* Play Like The G.O.A.T */
